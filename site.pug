@@ -1,0 +1,43 @@
+doctype html
+html(lang="en")
+  head 
+    title My Porfolio
+    link(rel='stylesheet', href='style.css', type='text/css')
+    script(src="scripts/porfolio.js")
+  body 
+    header#overhead.section
+      h1#name Christopher Pestano
+      nav
+        img(src="#")
+        ul
+          li About Me 
+          li Projects 
+          li Contact
+    main
+      section.about
+        img(src="#")
+        span.
+          lets never talk about all this nonsense
+          ever again like wtf
+      section.project
+        ul
+          - var projectimgs = ["","",""]
+          
+          - for (var i = 0; i < projectimgs.length; i++) {
+              li 
+                img(src=projectimgs[i])
+                span(id=projectimgs[i]) empty
+          -}
+      section.contact
+        h2 Contact
+        div
+          img(src="") 
+          span
+            p.
+              Email : a@aol.com
+              Phone : 305-457-7283
+          span
+            img(href="")
+            img(href="")
+            
+      footer @2019 Created by Christopher Pestano

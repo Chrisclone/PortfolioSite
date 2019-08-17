@@ -1,0 +1,43 @@
+* {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dadada;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color: #f9ff5c;
+}
+
+a:visited {
+    color:black;
+}
+
+nav {
+    font-weight: 400px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    margin: 5px 5px 0px 5px;
+}
+
+.navigation {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.name {
+    text-align: left;
+    font-size: 8vh;
+    margin: 40vh 0px 40vh 10px;
+}
+
+.name p {
+    margin-left: 30px;
+}

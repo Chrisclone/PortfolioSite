@@ -21,15 +21,17 @@ a:visited {
 nav {
     font-weight: 400px;
     text-align: center;
-    display:grid;
-    grid-template-columns: 30% 70%;
     margin: 5px 5px 0px 5px;
+}
+
+strong {
+    font-size: 15vh;
 }
 
 .navigation {
     list-style: none;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .name {
@@ -38,6 +40,6 @@ nav {
     margin: 40vh 0px 40vh 10px;
 }
 
-.name p {
+#subtext {
     margin-left: 30px;
 }

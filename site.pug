@@ -4,21 +4,24 @@ html(lang="en")
         title My Porfolio
         link(href="https://fonts.googleapis.com/css?family=Montserrat:320&display=swap" rel="stylesheet")
         link(rel='stylesheet', href='style.css', type='text/css')
+        meta(charset="utf-8")
     body 
         header#overhead.section
             nav
-                div My Porfolio
                 ul.navigation
                     li.item 
-                        a(href="#") About Me 
+                        a(href="#") About Me
+                    li.item
+                        a(href="#") My Porfolio
                     li.item 
                         a(href="#") Projects 
                     li.item 
                         a(href="#") Contact
         main
             div.name
-                h1 Christopher Pestano
-                p Programmer. Designer. Dreamer.
+                p#intro. 
+                    <strong> </strong> <br>
+                    <em id="description"></em>
             section.about
                 span.
                     Hello my name is Christopher

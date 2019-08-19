@@ -2,7 +2,10 @@
     margin:0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #dadada;
+}
+
+html {
+    background-color:#ffc1c1;
 }
 
 a {
@@ -21,7 +24,8 @@ a:visited {
 nav {
     font-weight: 400px;
     text-align: center;
-    margin: 5px 5px 0px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #ff8484;
 }
 
 strong {
@@ -29,9 +33,10 @@ strong {
 }
 
 .navigation {
+    font-size: 20px;
     list-style: none;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .name {

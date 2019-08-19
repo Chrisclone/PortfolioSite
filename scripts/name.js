@@ -25,7 +25,7 @@ window.addEventListener("load", ()=> {
             name.innerHTML = a;
             desc();
         }
-    },250)
+    },125)
 
     function desc(){
         let d = setInterval( () => {
@@ -40,9 +40,9 @@ window.addEventListener("load", ()=> {
             if (i === supposedtexttwo.length){
                 console.log("hurray");
                 clearInterval(d);
-                let a = name.innerHTML.split("_").join("")
-                name.innerHTML = a;
+                let a = description.innerHTML.split("_").join("")
+                description.innerHTML = a;
             }
-        },250)
+        },125)
     }
 })

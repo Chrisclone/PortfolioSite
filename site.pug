@@ -10,23 +10,21 @@ html(lang="en")
             nav
                 ul.navigation
                     li.item 
-                        a(href="#") About Me
-                    li.item
-                        a(href="#") My Porfolio
+                        a(href="#about") About Me
                     li.item 
-                        a(href="#") Projects 
+                        a(href="#project") Projects 
                     li.item 
-                        a(href="#") Contact
+                        a(href="#contact") Contact
         main
             div.name
                 p#intro. 
                     <strong> </strong> <br>
                     <em id="description"></em>
-            section.about
+            section#about
                 span.
                     Hello my name is Christopher
                     Pestano and I'm a web developer in the Miami area!
-            section.project
+            section#project
                 ul
                     - var projectimgs = ["","",""]
 
@@ -35,7 +33,7 @@ html(lang="en")
                         img(src=projectimgs[i])
                         span(id=projectimgs[i]) empty
                     -}
-            section.contact
+            section#contact
                 h2 Contact
             div
                 p.
